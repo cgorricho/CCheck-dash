@@ -33,9 +33,20 @@ git clone https://github.com/cgorricho/CCheck-dash.git
 cd CCheck-dash
 
 # Install dependencies
-pip install dash plotly pandas sqlite3
+pip install dash plotly pandas
+```
 
-# Run the unified dashboard
+### Running the Dashboard
+
+**Option 1: Using the launch script (recommended)**
+```bash
+# From the project root directory
+./run_dashboard.sh
+```
+
+**Option 2: Direct Python execution**
+```bash
+# From the project root directory
 cd dashboards
 python unified_dashboard.py
 ```
