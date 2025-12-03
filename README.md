@@ -38,20 +38,33 @@ pip install dash plotly pandas
 
 ### Running the Dashboard
 
-**Option 1: Using the launch script (recommended)**
+**Option 1: Using the launch script (recommended) - Background Mode**
+
+The dashboard runs in a background tmux session, so you can close the terminal and it keeps running.
+
 ```bash
-# From the project root directory
+# Start dashboard in background
 ./run_dashboard.sh
+
+# View dashboard logs (optional)
+tmux attach -t ccheck-dashboard
+# (Press Ctrl+B then D to detach from tmux)
+
+# Stop dashboard
+./stop_dashboard.sh
 ```
 
-**Option 2: Direct Python execution**
+**Option 2: Direct Python execution - Foreground Mode**
 ```bash
 # From the project root directory
 cd dashboards
 python unified_dashboard.py
+# Press Ctrl+C to stop
 ```
 
 Open your browser to `http://127.0.0.1:8050`
+
+**Note**: Option 1 requires tmux. Install with: `sudo apt install tmux`
 
 ## 📊 Dashboard Views
 
