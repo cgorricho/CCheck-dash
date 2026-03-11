@@ -210,7 +210,7 @@ def load_estimator_estimates_by_class(estimator_id):
     return df
 
 # Initialize Dash app
-app = dash.Dash(__name__, suppress_callback_exceptions=True)
+app = dash.Dash(__name__, suppress_callback_exceptions=True, url_base_pathname="/ccheck-dash/")
 app.title = "Construction Check - Platform Demo"
 
 # Color scheme - Construction Check ACTUAL website branding

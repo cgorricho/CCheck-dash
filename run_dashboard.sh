@@ -30,7 +30,7 @@ fi
 echo "🚀 Starting dashboard in background tmux session..."
 
 # Create new tmux session and run dashboard
-tmux new-session -d -s "$SESSION_NAME" "cd '$SCRIPT_DIR/dashboards' && python3 unified_dashboard.py"
+tmux new-session -d -s "$SESSION_NAME" "cd '$SCRIPT_DIR/dashboards' && ~/anaconda3/bin/python unified_dashboard.py"
 
 # Give it a moment to start
 sleep 2

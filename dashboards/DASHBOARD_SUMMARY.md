@@ -101,14 +101,14 @@ All estimates now include:
 
 ### Platform Admin Dashboard
 ```bash
-cd /home/cgorricho/apps/CCheck/dashboards
+cd /home/cgorricho/apps/CCheck-dash/dashboards
 python platform_admin_dashboard.py
 ```
 Opens at: http://127.0.0.1:8050
 
 ### Customer Dashboard
 ```bash
-cd /home/cgorricho/apps/CCheck/dashboards
+cd /home/cgorricho/apps/CCheck-dash/dashboards
 python customer_dashboard.py
 ```
 Opens at: http://127.0.0.1:8050
@@ -164,7 +164,7 @@ Opens at: http://127.0.0.1:8050
 ## File Structure
 
 ```
-/home/cgorricho/apps/CCheck/
+/home/cgorricho/apps/CCheck-dash/
 ├── dashboards/
 │   ├── platform_admin_dashboard.py  (renamed from business_dashboard_v2.py)
 │   ├── customer_dashboard.py        (NEW - 798 lines)

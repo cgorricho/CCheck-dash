@@ -121,7 +121,7 @@ CREATE DATABASE construction_check;
 \c construction_check
 
 # Execute schema
-\i /home/cgorricho/apps/CCheck/data/schema/create_tables.sql
+\i /home/cgorricho/apps/CCheck-dash/data/schema/create_tables.sql
 ```
 
 ### 2. Verify Installation

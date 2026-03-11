@@ -5,12 +5,12 @@
 ## Quick Start
 
 ```bash
-cd /home/cgorricho/apps/CCheck/data/generators
+cd /home/cgorricho/apps/CCheck-dash/data/generators
 pip install faker numpy
 python3 generate_data.py
 ```
 
-That's it! The database will be created at `/home/cgorricho/apps/CCheck/data/construction_check.db`
+That's it! The database will be created at `/home/cgorricho/apps/CCheck-dash/data/construction_check.db`
 
 ## What It Creates
 

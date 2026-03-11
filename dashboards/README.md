@@ -5,7 +5,7 @@
 ## Quick Start
 
 ```bash
-cd /home/cgorricho/apps/CCheck/dashboards
+cd /home/cgorricho/apps/CCheck-dash/dashboards
 pip install --user dash plotly pandas
 python3 business_dashboard.py
 ```
